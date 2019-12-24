@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Optivem.Demo.Infrastructure.Mapping\Optivem.Demo.Infrastructure.Mapping.csproj" />
+    <ProjectReference Include="..\Optivem.Demo.Infrastructure.Persistence\Optivem.Demo.Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\Optivem.Demo.Infrastructure.Validation\Optivem.Demo.Infrastructure.Validation.csproj" />
+  </ItemGroup>
+
+</Project>
